@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Accounting Application</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Simple Accounting</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="transactions.html">Transactions</a></li>
+                <li><a href="reports.html">Reports</a></li>
+                <li><a href="settings.html">Settings</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Welcome to Simple Accounting</h2>
+                <p>Your go-to solution for managing finances effectively and efficiently.</p>
+                <a href="signup.html" class="cta-button">Get Started</a>
+            </div>
+        </section>
+
+        <section class="features">
+            <h2>Features</h2>
+            <div class="feature-grid">
+                <div class="feature-item">
+                    <i class="fas fa-user-lock"></i>
+                    <h3>Secure Login</h3>
+                    <p>Protect your data with a secure login system using local storage.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Financial Dashboard</h3>
+                    <p>Track your income, expenses, and overall financial health in one place.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-file-invoice-dollar"></i>
+                    <h3>Manage Transactions</h3>
+                    <p>Easily add, edit, and delete your financial transactions.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-chart-pie"></i>
+                    <h3>Generate Reports</h3>
+                    <p>Create detailed financial reports to keep track of your money.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="about">
+            <h2>About This Project</h2>
+            <p>This simple accounting application is designed to help users manage their finances with ease. Built with HTML, CSS, and JavaScript, it offers basic features like transaction management, financial reporting, and a user-friendly dashboard. It’s a perfect project to demonstrate the fundamentals of web development and local storage management.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Simple Accounting. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
